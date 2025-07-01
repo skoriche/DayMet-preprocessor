@@ -41,7 +41,7 @@ For detailed information on the data formats, variables, and units, please see t
 **1. Clone the Repository**
 ```bash
 
-git clone <your-repository-url>
+git clone https://github.com/skoriche/DayMet-preprocessor.git
 cd DayMet-preprocessor
 
 ```
