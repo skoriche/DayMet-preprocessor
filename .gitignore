@@ -15,9 +15,9 @@ data/raw/daymet/*.nc
 !data/raw/daymet/*1980*.nc
 
 # Ignore all generated CSV files...
-processed/timeseries_csv/*.csv
+data/processed/timeseries_csv/*.csv
 # ...but make an exception to KEEP files named 'example*.csv'.
-!processed/timeseries_csv/example*.csv
+!data/processed/timeseries_csv/example*.csv
 
 # Common OS and IDE specific files
 .DS_Store
