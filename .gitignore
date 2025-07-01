@@ -1,0 +1,27 @@
+# Python Virtual Environment
+# Ignore the environment folder you created.
+.daymet_gsl_env/
+
+# Standard Python cache and compiled files
+__pycache__/
+*.pyc
+
+# --- Data File Handling ---
+# This setup preserves the directory structure and includes sample data.
+
+# Ignore all NetCDF files...
+data/raw/daymet/*.nc
+# ...but make an exception to KEEP files named 'example*.nc'.
+!data/raw/daymet/*1980*.nc
+
+# Ignore all generated CSV files...
+processed/timeseries_csv/*.csv
+# ...but make an exception to KEEP files named 'example*.csv'.
+!processed/timeseries_csv/example*.csv
+
+# Common OS and IDE specific files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
