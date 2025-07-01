@@ -11,8 +11,6 @@ __pycache__/
 
 # Ignore all NetCDF files...
 data/raw/daymet/*.nc
-# ...but make an exception to KEEP files named 'example*.nc'.
-!data/raw/daymet/*1980*.nc
 
 # Ignore all generated CSV files...
 data/processed/timeseries_csv/*.csv
