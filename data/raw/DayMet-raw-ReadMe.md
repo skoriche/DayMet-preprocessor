@@ -20,6 +20,7 @@ Contains the raw Daymet Version 4 daily surface weather data, downloaded as NetC
 
 ### Climate Variables
 | Variable | Description | Units |
+|----------|-------------|-------|
 | tmin | Daily minimum air temperature | °C |
 | tmax | Daily maximum air temperature | °C |
 | prcp | Daily total precipitation | mm/day |
