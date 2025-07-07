@@ -29,8 +29,8 @@
 OUTPUT_DIR="$(dirname "$0")/../data/raw/daymet"
 
 # VARIABLES - Temporal subset
-startyr=2024
-endyr=2024
+startyr=2023
+endyr=2023
 
 # VARIABLES - Region
 region="na"
