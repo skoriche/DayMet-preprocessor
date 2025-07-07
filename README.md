@@ -1,7 +1,7 @@
 # Daymet Climate Data Preprocessor
 This repository contains a complete workflow to download, subset, and process raw Daymet NetCDF climate data. It is designed to take raw climate data and transform it into clean, aggregated time-series CSV files suitable for analysis and as input for machine learning models. The primary output is a set of CSV files, one for each geographic sub-basin, where each column represents a climate variable and each row represents the daily spatial average for that variable.
 
-## Project Structure
+## Directory Structure
 The repository is organized into a sequential workflow:
 
 ```text
